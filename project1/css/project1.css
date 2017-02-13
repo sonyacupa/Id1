@@ -1,6 +1,9 @@
+h1 {font-family: 'Leckerli One', cursive;}
+h3 {font-family: 'Leckerli One', cursive;}
 body {
     width:100%;
-    background-color: #f9d82b;
+    background-color: #006d8a;
+    color: #ffffff;
     margin: 0;
     font-size: 100%;
 
