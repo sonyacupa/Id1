@@ -6,6 +6,11 @@ padding: 10%;}
 body {
     width:100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    background-color: #006d8a;
+    color: #ffffff;
+>>>>>>> origin/master
 =======
     background-color: #006d8a;
     color: #ffffff;
@@ -37,16 +42,22 @@ h3 {width: 25%;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 p { 
     padding-left: 25%;
     padding-right: 25%;
 =======
+=======
+>>>>>>> origin/master
 img#profile {width: 30%; float:left; padding: 3%}
 
 p { font-size: 1em;
     padding-left: 25%;
     padding-right: 25%;
     line-height: 4;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     font-family: 'Arapey', serif;
     font-size: 1.2em;
