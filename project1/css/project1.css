@@ -28,20 +28,20 @@ h3 {
     padding: 3%;
     float:left;
     font-family: 'Leckerli One', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #fb5f7a;
     text-align: center;
-    line-height: 3;
+    line-height: 1.5;
     letter-spacing: 3px;
     }
 
 p {
     padding-left: 25%;
     padding-right: 25%;
-    line-height: 4;
+    line-height: 2;
     font-family: 'Arapey', serif;
     font-size: 1.2em;
-    line-height: 3;}
+    }
 
 img#headergif {
 width: 100%;
