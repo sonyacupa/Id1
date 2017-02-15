@@ -1,14 +1,4 @@
-h1 {font-family: 'Leckerli One', cursive;}
-
-h3 {font-family: 'Leckerli One', cursive;
-padding: 10%;}
-
 body {
-    width:100%;
-    background-color: #006d8a;
-    color: #ffffff;
-    background-color: #006d8a;
-    color: #ffffff;
     margin: 0;
     color: #ffffff;
     background-color: #006d8a;
@@ -21,8 +11,7 @@ h1 {
     font-family: 'Leckerli One', cursive;
     text-align: center;
     font-size: 4.5em;
-    letter-spacing: 2px;
-}
+    text-shadow: 3px 5px #fe3f60;
     letter-spacing: 2px;}
 
 h3 {
@@ -34,10 +23,7 @@ h3 {
     font-size: 1.5em;
     text-align: center;
     line-height: 3;
-    letter-spacing: 2.5px;
-}
-
-img#profile {width: 30%; float:left; padding: 3%}
+    letter-spacing: 2.5px;}
 
 p {
     padding-left: 25%;
