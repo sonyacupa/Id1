@@ -16,6 +16,8 @@ body {
     text-align: left;}
 
 h1 {position:absolute;
+h1 {
+    position:absolute;
     left:25%;
     right:25%;
     font-family: 'Leckerli One', cursive;
@@ -23,8 +25,11 @@ h1 {position:absolute;
     font-size: 4.5em;
     letter-spacing: 2px;
 }
+    letter-spacing: 2px;}
 
 h3 {width: 25%; 
+h3 {
+    width: 25%; 
     padding: 5%;
     padding-right: 8%;
     float:left;
@@ -38,6 +43,8 @@ h3 {width: 25%;
 img#profile {width: 30%; float:left; padding: 3%}
 
 p { font-size: 1em;
+    letter-spacing: 2.5px;}
+p {
     padding-left: 25%;
     padding-right: 25%;
     line-height: 4;
@@ -51,10 +58,12 @@ p { font-size: 1em;
 
 img#headergif {
 width: 100%;
+    width: 100%;
     margin:0;
     padding-bottom: 5%;    
     
 }
+    padding-bottom: 5%;}
 
 img#profile {
     width: 30%; 
