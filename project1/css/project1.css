@@ -26,10 +26,10 @@ h2 {position:absolute;
 h3 {
     width: 25%; 
     padding: 3%;
-    border: 2px solid #fe3f60;
     float:left;
     font-family: 'Leckerli One', cursive;
     font-size: 1.5em;
+    color: #fb5f7a;
     text-align: center;
     line-height: 3;
     letter-spacing: 3px;
@@ -76,3 +76,9 @@ img#santa {
     padding-top: 8%;
     padding-right: 3%;
     float:right;}
+
+img#pinkcrystal {width:3%}
+
+img#footergem {
+    width:100%;
+    margin:0;}
