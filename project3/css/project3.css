@@ -13,42 +13,57 @@ h1 {
     letter-spacing: -5px;
 }
 
-h2 {font-family: 'Raleway', sans-serif;}
-h3 {font-family: 'Satisfy', cursive;}
+h2 {
+    top: 120%;
+    left:5%;
+    right:10%;
+    z-index: 99;
+    font-family: 'Satisfy', cursive;
+    text-align: left;
+    font-size: 4em;
+    color: black;
+    letter-spacing: -1px}
+h3 {
+    position:absolute;
+    top: 50%;
+    left:5%;
+    right:10%;
+    z-index: 99;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 2em;
+    color: powderblue;
+    text-shadow: 1px 3px 1px black;
+    letter-spacing: 1px}
 h4 {font-family: 'Satisfy', cursive;}
-h5{font-family: 'PT Serif', serif;}
-p {font-family: 'PT Serif', serif;
-    /*optional
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 1.5;
-    font-size: 1 em;
-    */
+h5{font-family: 'PT Serif', serif;
+    text-align: center}
+p {
+    position:about;
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    color: black;
+    letter-spacing: 1.3px
 }
 /*optionalsection{
 width: 100%;
 margin: 0;
 display: inline-table;}*/
-img {
+img#barrel {
     position:inherit;
     width: 100%;
     margin: 0;
-    z-index: -1;
-    
-}
-/*optional img#grapes {
-z-index: -1;
-width: 100%;
-margin: 0;}
-img#wine {
-z-index: -1;
-width: 100%;
-margin: 0;}
-img#people {
-z-index: -1;
-width: 100%;
-margin: 0;} */
+    z-index: -1;}
+img#glass {
+    position:inherit;
+    width: 100%;
+    margin: 0;
+    z-index: -1;}
 
+img#names {
+    width: 35%; 
+    padding: 2%;
+    padding-top: 1%;}
 
 /* mobile layout */
 
