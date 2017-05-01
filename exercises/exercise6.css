@@ -1,0 +1,76 @@
+/* By using "position:relative", we establish that children elements that are positioned absolutely should be positioned in relationship to this parent element */
+#relative {
+    position:relative;
+    width:20%;
+    height:100vh;
+    background-color: palevioletred;
+    
+}
+#relative a {
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+#relative p{
+    position:absolute;
+    top: 0;
+    left:5%;
+    width:50%;
+    font-size: auto;
+    text-align: center;
+    background-color:aqua;
+    border-color:dimgrey;
+    border-style: inset;
+}
+#relative p:nth-child(2) {
+    position:absolute;
+    top:10%;
+    left:2%;
+}
+#relative p:nth-child(3) {
+    position:absolute;
+    top:20%;
+    left:2%;
+}
+/*
+#relative {
+    position: relative;
+    width: 100%;
+    height:400px;
+    background-image: url(kermit.jpeg);
+    background-size: cover;
+}
+#relative p {
+    position: absolute;
+    right:0;
+    bottom: 0;
+    margin:0;
+    width:3%;
+    padding:1%;
+    font-family:cursive;
+    font-size: auto;
+    text-align: center;
+    border-radius: 10%;
+    background-color:greenyellow;
+}
+#relative p:nth-child(2) {
+    right:5%;
+    background-color: lightgreen;#rel 
+}
+*/
+/* Because we don't use "position:relative" here, the children elements that are positioned absolutelyare positioned in relationship to the the <body> */
+
+#static {
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    border:black;
+    border-width: 5px;
+}
+
+#static p {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+}
